@@ -127,11 +127,15 @@ print("耗时%s"%(end_time-start_time))
     普通算法
 '''
 
+def get_sum(n):
+    sum = 0
+    for i in range(1,n):
+        sum = sum + i
+    return sum
 
-
-
-
-
+def get_sum_gs(n):
+    sum = n*(n+1)/2
+    return sum
 
 
 
